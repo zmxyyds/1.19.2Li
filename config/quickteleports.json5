@@ -1,0 +1,4 @@
+{
+	// Timeout until a teleport request expires, in seconds.
+	"teleport_request_timeout": 30
+}

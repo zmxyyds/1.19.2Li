@@ -1,0 +1,43 @@
+{
+  "maxLevel": 39,
+  "compatibility": {
+    "minecraft:bane_of_arthropods": [
+      "minecraft:sharpness",
+      "minecraft:smite"
+    ],
+    "minecraft:projectile_protection": [
+      "minecraft:blast_protection",
+      "minecraft:fire_protection",
+      "minecraft:protection"
+    ],
+    "minecraft:sharpness": [
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods"
+    ],
+    "minecraft:fire_protection": [
+      "minecraft:protection",
+      "minecraft:projectile_protection",
+      "minecraft:blast_protection"
+    ],
+    "minecraft:mending": [
+      "minecraft:infinity"
+    ],
+    "minecraft:smite": [
+      "minecraft:bane_of_arthropods",
+      "minecraft:sharpness"
+    ],
+    "minecraft:protection": [
+      "minecraft:projectile_protection",
+      "minecraft:blast_protection",
+      "minecraft:fire_protection"
+    ],
+    "minecraft:multishot": [
+      "minecraft:piercing"
+    ],
+    "minecraft:blast_protection": [
+      "minecraft:fire_protection",
+      "minecraft:protection",
+      "minecraft:projectile_protection"
+    ]
+  }
+}
