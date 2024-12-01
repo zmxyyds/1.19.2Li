@@ -1,206 +1,27 @@
-[21:36:23] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.9
-[21:36:23] [ForkJoinPool-1-worker-1/WARN]: Mod identifier-translation uses the version 1_1.19-1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1_1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[21:36:23] [main/INFO]: Loading 125 mods:
-	- advdebug 2.3.0
-	- appleskin 2.5.1+mc1.19
-	- architectury 6.6.92
-	- betterstats 2.9.3+1.19.2
-	- carpet 1.4.84
-	- carpet-extra 1.4.84
-	- carpet-tctc-addition 2.2.212+46263e3-stable
-	   \-- carpet-tctc-addition-1_19_2 2.2.212+46263e3-stable
-	- carpet-tis-addition 1.59.0
-	   \-- conditional-mixin 0.6.2
-	- carpetskyadditions 1.19.2-4.2.0
-	- chunksending 1.19.2-2.8
-	- chunky 1.3.38
-	- cloth-config 8.3.134
-	   \-- cloth-basic-math 0.6.1
-	- collective 7.64
-	- cupboard 1.19.2-2.6
-	- deathquotes 3.3
-	   |-- com_electronwill_night-config_core 3.6.4
-	   \-- com_electronwill_night-config_toml 3.6.4
-	- easyauth 3.0.19
-	   |-- at_favre_lib_bcrypt 0.9.0
-	   |-- at_favre_lib_bytes 1.5.0
-	   |-- com_mysql_mysql-connector-j 8.0.33
-	   |-- de_mkammerer_argon2-jvm 2.11
-	   |-- de_mkammerer_argon2-jvm-nolibs 2.11
-	   |-- net_java_dev_jna_jna 5.12.1
-	   |-- org_iq80_leveldb_leveldb 0.12
-	   |-- org_iq80_leveldb_leveldb-api 0.12
-	   |-- org_mongodb_bson 4.7.2
-	   |-- org_mongodb_mongodb-driver-core 4.7.2
-	   |-- org_mongodb_mongodb-driver-sync 4.7.2
-	   |-- placeholder-api 2.0.0-beta.7+1.19
-	   \-- server_translations_api 1.4.16+1.19
-	        \-- packet_tweaker 0.3.0+1.18.2
-	- emi 1.1.18+1.19.2+fabric
-	- essentialaddons 1.2.2
-	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
-	- expanded_axe_enchanting 1.0.4
-	- expanded_trident_enchanting 1.0.4
-	- expanded_weapon_enchanting 1.0.3
-	- fabric-api 0.77.0+1.19.2
-	   |-- fabric-api-base 0.4.15+8f4e8eb390
-	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
-	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
-	   |-- fabric-block-api-v1 1.0.2+e415d50e90
-	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
-	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
-	   |-- fabric-command-api-v1 1.2.16+f71b366f90
-	   |-- fabric-command-api-v2 2.2.1+413cbbc790
-	   |-- fabric-commands-v0 0.2.33+df3654b390
-	   |-- fabric-containers-v0 0.1.42+df3654b390
-	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
-	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
-	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
-	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
-	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
-	   |-- fabric-entity-events-v1 1.5.4+9244241690
-	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
-	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
-	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
-	   |-- fabric-item-api-v1 1.6.6+b7d1888890
-	   |-- fabric-item-groups-v0 0.3.39+9244241690
-	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
-	   |-- fabric-keybindings-v0 0.2.23+df3654b390
-	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
-	   |-- fabric-loot-api-v2 1.1.13+83a8659290
-	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
-	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
-	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
-	   |-- fabric-models-v0 0.3.21+c6af733c90
-	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
-	   |-- fabric-networking-v0 0.3.29+df3654b390
-	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
-	   |-- fabric-particles-v1 1.1.0+ee641e7390
-	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
-	   |-- fabric-registry-sync-v0 0.9.33+9244241690
-	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
-	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
-	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
-	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
-	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
-	   |-- fabric-rendering-v0 1.1.28+df3654b390
-	   |-- fabric-rendering-v1 1.13.0+526f2c6790
-	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
-	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
-	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
-	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
-	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
-	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
-	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
-	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
-	- fabric-language-kotlin 1.12.3+kotlin.2.0.21
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.21
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.21
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.21
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.21
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
-	- fabricloader 0.16.9
-	   \-- mixinextras 0.4.1
-	- fastfurnace 1.19.2-5
-	- gca 2.6.0-1.19
-	- identifier-translation 1_1.19-1.19.2
-	- infinitetrading 4.4
-	- java 22
-	- jei 11.8.1.1034
-	- jline4mcdsrv 0.6.2
-	   |-- com_moandjiezana_toml_toml4j 0.7.2
-	   |-- org_jline_jline 3.26.2
-	   \-- org_jline_jline-terminal-jansi 3.26.2
-	- litemoretica 1.2.5+mc1.19.2
-	- magiclib 0.8.633+eddde66-stable
-	   |-- magiclib-1_19_2 0.8.30+8d71d8f-stable
-	   |-- magiclib_core 0.8.133+4857a7d-stable
-	   |-- magiclib_malilib_extra 0.8.59+eddde66-stable
-	   \-- magiclib_minecraft_api 0.6.74+1c0a956-stable
-	- minecraft 1.19.2
-	- pca-1_19_2 0.3.190+9e97daa-beta
-	- quickshulker 1.3.9-1.19
-	   |-- kyrptconfig 1.4.16-1.19
-	   \-- shulkerutils 1.0.4-1.19
-	- quickteleports 1.19-1.2.0
-	- restart-server 1.2.0+mc1.19.x-1.20.x
-	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
-	- servux 0.1.0
-	- smoothchunk 1.19.2-3.5
-	- starlight 1.1.1+fabric.ae22326
-	- syncmatica 1.18.2-0.3.11
-	- tcdcommons 2.9.1+1.19.2
-	- tt20 0.7.0
-	   \-- net_snackbag_shit_shit 1.2.3
-[21:36:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/1.19.2Li/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:36:23] [main/INFO]: Compatibility level set to JAVA_16
-[21:36:23] [main/INFO]: Compatibility level set to JAVA_17
-[21:36:26] [main/INFO]: Initializing MixinExtras via top.hendrixshen.magiclib.libs.com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:36:31] [main/INFO]: Building unoptimized datafixer
-[21:36:34] [main/WARN]: @Redirect conflict. Skipping litemoretica.server.mixins.json:ServerPlayNetworkHandlerMixin_EasyPlaceProtocol from mod litemoretica->@Redirect::removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 900, already redirected by carpet-extra.mixins.json:ServerPlayNetworkHandlerMixin from mod carpet-extra->@Redirect::carpetextra_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1000
-[21:36:34] [TISCM Mapping/INFO]: Yarn mapping file yarn-1.19.2+build.28-v2.tiny loaded
-[21:36:34] [main/INFO]: Loaded config for: chunksending.json
-[21:36:34] [main/INFO]: chunksending mod initialized
-[21:36:34] [main/INFO]: Loading Collective version 7.64.
-[21:36:34] [main/INFO]: Loaded config for: cupboard.json
-[21:36:34] [main/INFO]: Loaded death quotes!
-[21:36:34] [main/INFO]: Death quotes count - 620
-[21:36:34] [main/INFO]: [EasyAuth]: EasyAuth mod by samo_lego, NikitaCartes.
-[21:36:34] [main/INFO]: [EasyAuth]: You have premiumAutologin enabled. Enable online-mode so that online player can not register.
-[21:36:36] [main/INFO]: Starting TT20...
-[21:36:36] [main/INFO]: (TT20) Checking for updates...
-[21:36:37] [main/INFO]: (TT20) Running the latest version
-[21:36:37] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
-[21:36:37] [main/INFO]: Registering C2S receiver with id betterstats:c2s_p
-[21:36:37] [main/INFO]: Registering C2S receiver with id betterstats:c2s_rs
-[21:36:37] [main/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
+[21:27:13] [Server thread/INFO]: 目前启用的 Carpet Mod 选项:
+[21:27:14] [Server thread/INFO]: - 语言 (language) [en_us] [zh_cn] [zh_tw]
+[21:27:14] [Server thread/INFO]: - piglinsSpawningInBastions [true] [false]
+[21:27:14] [Server thread/INFO]: - 海绵可再生 (renewableSponges) [true] [false]
+[21:27:14] [Server thread/INFO]: Carpet Mod 版本: 1.4.84+v221018
+[21:27:14] [Server thread/INFO]: Carpet TIS Addition 版本: 1.59.0
+[21:27:14] [Server thread/INFO]: MagicLib version: magiclib 
+[21:27:14] [Server thread/INFO]: CarpetTCTCAddition version: 2.2.212+46263e3-stable (Public Release) 
+[21:27:14] [Server thread/INFO]: Plusls Carpet Addition version: 0.3.190+9e97daa-beta 
+[21:27:14] [Server thread/INFO]: 浏览分类:
+[移植] [GCA] [生存] [记录器] [扩展] [试验性] [创造] [指令] [发射器] [TISCM网络协议] [carpet mod] [特性] [优化] [Scarpet脚本语言] [客户端] [TNT] [漏洞修复] [TIS] [essential]
+[21:29:41] [Server thread/INFO]: Stopping the server
+[21:29:41] [Server thread/INFO]: Stopping server
+[21:29:41] [Server thread/INFO]: Saving players
+[21:29:41] [Server thread/INFO]: Saving worlds
+[21:29:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:29:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:29:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:29:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:29:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:29:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:29:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:29:44] [Server thread/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
 These won't be supported in a later Carpet version!
 Carpet will now try to map them to the correct keys in a best-effort basis
-[21:36:37] [main/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
-These won't be supported in a later Carpet version!
-Carpet will now try to map them to the correct keys in a best-effort basis
-[21:36:37] [main/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
-These won't be supported in a later Carpet version!
-Carpet will now try to map them to the correct keys in a best-effort basis
-[21:36:37] [main/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
-These won't be supported in a later Carpet version!
-Carpet will now try to map them to the correct keys in a best-effort basis
-[21:36:37] [main/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
-These won't be supported in a later Carpet version!
-Carpet will now try to map them to the correct keys in a best-effort basis
-[21:36:37] [main/WARN]: @Redirect conflict. Skipping cupboard.mixins.json:CommandExceptionLoggingMixin from mod cupboard->@Redirect::cupboard$logCommandError(Lorg/slf4j/Logger;)Z with priority 200, already redirected by carpet.mixins.json:Commands_customCommandsMixin from mod carpet->@Redirect::doesOutputCommandStackTrace(Lorg/slf4j/Logger;)Z with priority 1000
-[21:36:37] [main/INFO]: [Restart Server] Loading!
-[21:36:38] [main/INFO]: Initializing 'TCD Commons API' 2.9.1+1.19.2 as 'TCDCommonsServer'.
-[21:36:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:36:40] [main/INFO]: Loaded 7 recipes
-[21:36:40] [main/INFO]: Loaded 1179 advancements
-[21:36:40] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5467 translation keys
-[21:36:41] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.324 ms
-[21:36:41] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[21:36:41] [Server console handler/INFO]: Starting jline4mcdsrv
-[21:36:41] [Server thread/INFO]: Loading properties
-[21:36:41] [Server thread/INFO]: Default game type: SURVIVAL
-[21:36:41] [Server thread/INFO]: Generating keypair
-[21:36:41] [Server thread/INFO]: Starting Minecraft server on *:26666
-[21:36:42] [Server thread/INFO]: Using default channel type
-[21:36:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:36:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:36:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:36:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:36:42] [Server thread/INFO]: Preparing level "world"
-[21:36:42] [Server thread/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
-These won't be supported in a later Carpet version!
-Carpet will now try to map them to the correct keys in a best-effort basis
-[21:36:42] [Server thread/WARN]: Found outdated translation keys in extension 'dev.dubhe.gugle.carpet.GcaExtension'!
-These won't be supported in a later Carpet version!
-Carpet will now try to map them to the correct keys in a best-effort basis
-[21:36:42] [Server thread/INFO]: [CM] Loaded 3 settings from carpet.conf
-[21:36:42] [Server thread/INFO]: [CM] Loaded 20 settings from carpetskyadditions.conf
+[21:29:44] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[21:29:44] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
